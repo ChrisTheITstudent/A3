@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-size: 16px;
+}
+h1, h2, p {
+  margin-top: 0;
+}
+h1 {
+  text-align: center;
+}
+a {
+  color: lime;
+}
+a:hover a:focus {
+  color: aqua;
+}
+.button {
+  background-color: darkgrey;
+  text-decoration: none;          /* take off the underline on the link */
+  padding: 10px 20px;             /* more on left and right to make buttons look good */
+  display: inline-block;          /* make the button not go over other stuff */
+}
+.button:hover {
+  background-color: lightgrey;
+}
