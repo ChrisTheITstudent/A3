@@ -31,9 +31,12 @@ h1 {
 }
 h2 {
   font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
 }
 h3 {
   font-size: 1.75rem;
+  margin-bottom: 1rem;
 }
 a {
   color: white;
@@ -44,6 +47,13 @@ a:focus {
   color: black;
 }
 
+/* General Coloms */
+.coloms {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
 /* Buttons */
 
 .button {
@@ -52,9 +62,20 @@ a:focus {
   padding: 1em 2em;               /* more on left and right to make buttons look good */
   display: inline-block;          /* make the button not go over other stuff */
 }
-.button:hover {
+.button:hover,
+.button:focus {
   color: green;
   background-color: lightgrey;
+}
+.personality-btn {
+  background-color: #002836;
+  color: white;
+  margin: 1em;
+}
+.personality-btn:hover,
+.personality-btn:focus {
+  background-color: lightblue;
+  color: black;
 }
 
 /* Navigation */
@@ -70,7 +91,7 @@ a:focus {
 }
 
 /* Homepage Layout */
-.container {
+.container {                    /* Also used for general long containers */
   width: 90%;
   margin: 0.33em auto;
   text-align: center;
@@ -92,4 +113,9 @@ a:focus {
 }
 .career-plans {
   background-color: #0088B5;
+}
+
+  /* Homepage Coloms */
+.home-col-1 {
+  width: 30%
 }
