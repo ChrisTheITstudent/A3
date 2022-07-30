@@ -95,6 +95,9 @@ a:focus {
   text-align: center;
   justify-content: space-evenly;
 }
+.current-page {
+  border-bottom: 5px solid lightblue;
+}
 
 /* Homepage Layout */
 .container {                    /* Also used for general long containers */
