@@ -21,6 +21,20 @@ body {
   background-color: #00B8F5;
   color: #000000;
 }
+main {
+  width: 75%;
+}
+aside {
+  width: 25%;
+}
+@media (max-width: 675px) {
+  aside {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+}
 h1, h2, h3, p {
   margin-top: 0;
 }
@@ -31,12 +45,11 @@ h1 {
 }
 h2 {
   font-size: 2rem;
-  text-align: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5em;
 }
 h3 {
   font-size: 1.75rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.125em;
 }
 a {
   color: white;
@@ -47,20 +60,20 @@ a:focus {
   color: black;
 }
 
-/* General Coloms */
+/* ==========General Coloms========== */
 .coloms {
   display: flex;
   width: 100%;
   justify-content: space-between;
 }
-@media (min-width: 600px) {
+@media (min-width: 675px) {
   .coloms {
     flex-direction: column;
   }
 
 }
 
-/* Buttons */
+/* =========Buttons=========== */
 
 .button {
   background-color: black;
@@ -86,29 +99,53 @@ a:focus {
 
 /* Navigation */
 
-.nav-col {
-  display: flex;
-  width: 100%;
-}
 .nav-col-1 {
   width: 11%;
   text-align: center;
   justify-content: space-evenly;
 }
+@media (max-width: 675px) {
+  .nav-col-1 {
+    width: 100%;
+  }
+}
 .current-page {
   border-bottom: 5px solid lightblue;
 }
+@media (max-width: 675px) {
+  .current-page {
+    border-bottom: none;
+    background-color: #282828;
+  }
+}
 
-/* Homepage Layout */
-.container {                    /* Also used for general long containers */
+/* ==============Layout============ */
+.container {
   width: 90%;
   margin: 0.33em auto;
   text-align: center;
   padding: 0.12em 0;
 }
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 675px) {
+  .container-flex {
+    flex-direction: column;
+  }
+}
+
+/* homepage */
 .profile-photo {
   width: 25%;
   border-radius: 5%;
+}
+.profile {
+  padding-left: 2em;
+  padding-right: 2em;
+  max-width: 1300px;
+  text-align: center;
 }
 .andy-profile,
 .chris-profile {
@@ -123,8 +160,21 @@ a:focus {
 .career-plans {
   background-color: #0088B5;
 }
-
-  /* Homepage Coloms */
-.home-col-1 {
-  width: 30%
+.test-results {
+  background-color: #00A4DB;
+}
+.group-process,
+.career-plans,
+.test-results {
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0em 1em 1em;
+  border: 9em solid black #1F3F51;
+  border-style: outset;
+}
+@media (max-width 675px) {
+  .sidebar {
+    margin-top: 1em;
+  }
 }
