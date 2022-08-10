@@ -2,6 +2,7 @@
 /* Google Font Families Used */
   /* 'Bowlby One', cursive; */
   /* 'Roboto Condensed', sans-serif; */
+  /* 'Sofia', cursive; */
 
 /* Colour Scheme */
   /* A - #0088B5 */
@@ -131,6 +132,9 @@ table {
 }
 
 /* ==============Layout============ */
+.page-header {
+  width: 100%;
+}
 .container {
   width: 90%;
   margin: 0.33em auto;
@@ -189,10 +193,7 @@ table {
   }
 }
 
-/* team profile */
-.team-profile-header {
-  width: 100%;
-}
+/* ----team profile---- */
 .profile-page {
   display: flex;
   flex-direction: column;
@@ -309,4 +310,22 @@ table {
 }
 .no {
   background-color: #005875;
+}
+
+/* ----Overview---- */
+.overview-para {
+  border-left: solid 2em #002836;
+  font-size: 2rem;
+}
+.statement {
+  margin-bottom: 1em;
+  border-top: solid 0.005em #ffff;
+  border-bottom: solid 0.005em #ffff;
+  font-size: 3em;
+}
+.motivation {
+
+}
+.quote {
+  
 }
