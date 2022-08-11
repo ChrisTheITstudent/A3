@@ -72,6 +72,7 @@ table {
   border-collapse: collapse;
 }
 
+
 /* ==========General Coloms========== */
 .coloms {
   display: flex;
@@ -358,4 +359,43 @@ table {
 .landscape-table th {
   width: 25%;
   height: 2em;
+}
+.landscape-table td {
+  background-color: #00A4DB;
+}
+.landscape-table th {
+  color: white;
+  background-color: #002836;
+}
+  /* Detailed Description */
+.detailed-description {
+
+}
+.detailed-description-header {
+  margin-left: 1em;
+  text-align: center;
+  text-decoration: underline;
+}
+.aim-description {
+  font-size: 1.5rem;
+}
+.aim-explaination {
+  margin-left: 1em;
+  margin-bottom: 2em;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.goals-list {
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  text-align: left;
+  border-left: solid 1em #002836;
+  border-right: solid 1em #002836
+}
+.goals {
+  list-style: none;
+}
+.goals li {
+  font-size: 1.5rem;
 }
