@@ -324,8 +324,38 @@ table {
   font-size: 3em;
 }
 .motivation {
-
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: #00A4DB;
+  font-size: 1.5rem;
 }
 .quote {
-  
+  margin-left: 15em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 50%;
+  border-top: solid 0.05em #002836;
+  border-bottom: solid 0.05em #002836;
+  text-align: left;
+  background-color:
+}
+.landscape {
+  border: solid 1em lightgrey;
+  border-style: groove;
+  padding: 1em;
+}
+.landscape-para {
+  font-size: 1.5em;
+  text-align: left;
+}
+.landscape-table {
+
+}
+.landscape-table table {
+  width: 100%;
+}
+.landscape-table td,
+.landscape-table th {
+  width: 25%;
+  height: 2em;
 }
