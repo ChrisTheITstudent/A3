@@ -151,7 +151,12 @@ table {
     flex-direction: column;
   }
 }
-
+.progress h2,
+.scope-and-limits h2,
+.testing h2,
+.risks h2 {
+  text-decoration: underline;
+}
 /* homepage */
 .profile-photo {
   width: 25%;
@@ -312,6 +317,22 @@ table {
 .no {
   background-color: #005875;
 }
+    /* Group Process */
+.group-process {
+  margin-left: 0;
+  margin-right: 0;
+  border-top: solid 0.0125em white;
+  border-bottom: solid 0.0125em white;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+}
+.group-process-header {
+
+}
+.group-process-para {
+  padding: 0 2em 0 2em;
+}
 
 /* ----Overview---- */
 .overview-para {
@@ -350,7 +371,7 @@ table {
   text-align: left;
 }
 .landscape-table {
-
+  margin-bottom: 2em;
 }
 .landscape-table table {
   width: 100%;
@@ -398,4 +419,136 @@ table {
 }
 .goals li {
   font-size: 1.5rem;
+}
+
+/* Project Description */
+  /* Roles */
+.roles h2 {
+  text-decoration: underline;
+}
+.roles {
+  text-align: center;
+}
+.roles-background {
+  background-color: #002836;
+  border: outset 1em lightgrey;
+}
+.andy-role,
+.jen-role,
+.chris-role {
+  width: 16.66%;
+  margin: 0.125em 0.25em;
+  padding: 0.125em;
+  background-color: #00A4DB;
+  border: solid 0.25em white;
+}
+  /* Progress and Planning */
+
+.progress {
+ margin-top: 3em;
+}
+.left-page,
+.right-page {
+  width: 50%;
+  min-height: 750px;
+  margin-top: 1em;
+  padding: 1em;
+  border: solid 0.001em lightgrey;
+  text-align: left;
+}
+.left-page {
+  border-right: solid 0.001em white;
+}
+.right-page {
+  border-left: solid 0.001em white;
+}
+.entry {
+  border-bottom: dotted 0.01em #002836;
+}
+  /* Scope and limits */
+.scope-and-limits,
+.testing {
+  width: 45%;
+  margin-top: 3em;
+  background-image: linear-gradient(#0088B5, #005875, #00B8F5);
+  border-top: solid 0.25em lightblue;
+  border-left: solid 0.125em lightblue;
+  border-right: solid 0.125em lightblue;
+  border-bottom: dotted 0.125em lightblue;
+}
+.scope-and-limits-para {
+
+}
+  /* Risks */
+.risks {
+ border: groove 1em lightgrey;
+}
+.risks-table table,
+.risks-table th,
+.risks-table td {
+
+}
+.risks-table th,
+.risks-table td {
+  width: 25%;
+}
+.risks-table {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.risk-matrix table {
+  width: 100%;
+}
+.risk-matrix {
+  justify-content: space-around;
+  margin: 1em;
+  padding-top: 1em;
+  border-top: dashed 0.125em #005875;
+}
+.matrix {
+  width: 100%;
+}
+.table-header {
+  background-color: #002836;
+  color: white;
+}
+.table-subheader {
+  background-color: #00A4DB;
+}
+.risk-low {
+  background-color: #80FF00;
+}
+.risk-med {
+  background-color: #FFFF00;
+}
+.risk-high {
+  background-color: #FF8000;
+}
+.risk-extreme {
+  background-color: #FF0000;
+}
+.likelihood th,
+.consequence th {
+  background-color: #002836;
+  color: white;
+}
+.consequence {
+  width: 45%;
+}
+.likelihood {
+  width: 45%;
+}
+  /* Testing */
+.testing-para {
+
+}
+  /* Timeline */
+.timeline h2 {
+  text-decoration: underline;
+}
+.timeline {
+  margin-top: 3em;
+}
+.timeline-image {
+
 }
