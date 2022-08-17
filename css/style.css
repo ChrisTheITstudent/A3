@@ -111,7 +111,12 @@ table {
 }
 
 /* Navigation */
+/* Hamburger Menu */
+.hamburger {
+  border: solid 1em black;
+}
 
+/* Simple Navigation */
 .nav-col-1 {
   width: 11%;
   text-align: center;
@@ -482,6 +487,7 @@ table {
   /* Risks */
 .risks {
  border: groove 1em lightgrey;
+ margin-bottom: 1em
 }
 .risks-table table,
 .risks-table th,
@@ -495,6 +501,7 @@ table {
 .risks-table {
   margin-left: 20%;
   margin-right: 20%;
+  margin-bottom: 1em;
 }
 .risk-matrix table {
   width: 100%;
