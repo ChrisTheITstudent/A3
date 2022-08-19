@@ -659,3 +659,20 @@ table {
   height: auto;
   border: groove 1em lightblue;
 }
+
+/* Tools and Technoligies */
+.tools-table td,
+.tools-table th {
+  width: 33%;
+}
+.tools-table th {
+  background: #002836;
+  font-weight: bold;
+  color: white;
+}
+.tool-table table {
+
+}
+.tools-table {
+
+}
