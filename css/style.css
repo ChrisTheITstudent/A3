@@ -116,14 +116,14 @@ table {
   z-index: 2;
   height: 50px;
   width: 50px;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   cursor: pointer;
   opacity: 0;
 }
 .hamburger {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 40px;
@@ -161,7 +161,7 @@ table {
 .toggler:checked + .hamburger > div::before {
   top: 0;
   transform: rotate(45deg);
-  background-color: black
+  background-color: black;
 }
 .toggler:checked + .hamburger > div::after {
   top: 0;
@@ -169,20 +169,26 @@ table {
   background-color: black;
 }
 .menu {
-  background-color: #005875;
+  position: fixed;
   width: 0%;
   height: 100vh;
-  transition: all 0.4s ease;
+  transition: all 1s ease;
+  float: left;
 }
 .toggler:checked ~ .menu {
   width: 30%;
+  height: 100%;
 }
 .menu > div > ul {
   display: flex;
   flex-direction: column;
+  height: 100%;
+  background-color: #002836;
+  border-radius: 5px;
   position: fixed;
-  top: 70px;
+  top: 35px;
   padding-left: 10px;
+  opacity: 0.8;
   visibility: hidden;
 }
 .menu > div > ul > li {
@@ -190,14 +196,14 @@ table {
   padding: 1em;
 }
 .menu > div > ul > li > a {
-  color: black;
+  color: lightblue;
   text-decoration: none;
   font-size: 2rem;
   padding: 0.5em;
 }
 .toggler:checked ~ .menu > div > ul {
-  transition: visibility 0.4s ease;
-  transition-delay: 0.1s;
+  transition: visible 1s ease;
+  transition-delay: 0.5s;
   visibility: visible;
 }
 .toggler:checked ~ .menu > div > ul > li > a:hover,
