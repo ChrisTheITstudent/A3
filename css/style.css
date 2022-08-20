@@ -689,3 +689,19 @@ table {
 .tools-table {
 
 }
+
+/* Skills and Jobs */
+.job h3,
+.job li {
+  text-align: left;
+}
+.job h3 {
+  text-decoration: underline;
+}
+.job {
+  width: 50%;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 1em;
+  border: solid lightgrey 0.125em;
+}
