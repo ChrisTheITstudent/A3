@@ -71,7 +71,9 @@ table {
   border: 0.1em solid white;
   border-collapse: collapse;
 }
-
+hr {
+  border-top: groove 1.5em lightgrey;
+}
 
 /* ==========General Coloms========== */
 .coloms {
@@ -704,4 +706,22 @@ table {
   margin-right: 0.5em;
   padding: 1em;
   border: solid lightgrey 0.125em;
+}
+
+/* Group Reflection */
+.group-reflection,
+.reflection-individual {
+  font-size: 1.5em;
+}
+.group-reflection {
+ width: auto;
+ margin-left: 0;
+ margin-right: 0;
+ padding-left: 15%;
+ padding-right: 15%;
+ background-color: #00A4DB;
+}
+.reflection-individual {
+  width: 32%;
+  border: outset 0.25em #002836;
 }
