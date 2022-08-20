@@ -661,6 +661,19 @@ table {
 }
 
 /* Tools and Technoligies */
+.tools-para {
+  width: 70%;
+  margin-left: 5%;
+  margin-right: 15%;
+  padding: 0.5em;
+  border-left: solid 3em #0088B5;
+  font-size: 1.5rem;
+  text-align: left;
+
+}
+.tools-table-header {
+  border-top: dashed 0.125em lightblue;
+}
 .tools-table td,
 .tools-table th {
   width: 33%;
