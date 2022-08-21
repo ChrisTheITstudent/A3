@@ -30,6 +30,12 @@ main {
 aside {
   width: 25%;
 }
+footer {
+  margin: 0;
+  background-color: #002836;
+  color: white;
+  border-top: solid 0.25em lightgrey;
+}
 @media (max-width: 675px) {
   aside {
     width: 100%;
@@ -751,4 +757,47 @@ hr {
   text-align: left;
   font-size: 1.25em;
   padding-bottom: 1em;
+}
+
+/* ======== Footer ======= */
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer a {
+  margin: 0;
+  color: lightblue;
+}
+.footer h2 {
+  margin: 0;
+}
+.footer p {
+  margin: 0;
+}
+.footer {
+  text-align: left;
+}
+.footer-c1 {
+  width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  text-align: center;
+
+  /* border: solid 0.1em black; */
+}
+.footer-c2 img {
+  width: 50%;
+  padding: 0;
+
+  /* border: solid 0.1em black; */
+}
+.footer-c2 {
+  width: 20%;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 1em;
+
+  /* border: solid 0.1em black; */
 }
