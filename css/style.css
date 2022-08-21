@@ -197,6 +197,16 @@ hr {
   list-style: none;
   padding: 1em;
 }
+.menu > div > ul > li:hover,
+.menu > div > ul > li:focus {
+  background-image: linear-gradient(lightblue, darkblue);
+}
+.menu .logo img {
+  width: 30%;
+}
+.menu .logo:hover {
+  background: none;
+}
 .menu > div > ul > li > a {
   color: lightblue;
   text-decoration: none;
@@ -211,8 +221,6 @@ hr {
 .toggler:checked ~ .menu > div > ul > li > a:hover,
 .toggler:checked ~ .menu > div > ul > li > a:focus {
   color: white;
-  background-image: linear-gradient(lightblue, darkblue);
-  border-radius: 5px;
 }
 
 /* Simple Navigation */
@@ -227,7 +235,8 @@ hr {
   }
 }
 .current-page {
-  border-bottom: 5px solid lightblue;
+  border-left: 5px solid lightblue;
+  border-right: 5px solid lightblue;
 }
 @media (max-width: 675px) {
   .current-page {
@@ -329,10 +338,20 @@ hr {
 .per-jen {
   background-color: #005875;
 }
+.summary th,
+.summary td,
+.summary table {
+  color: white;
+}
+.summary table {
+  width: 100%;
+}
+
 .summary {
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .personality-summary {
   padding: 1em;
@@ -341,10 +360,7 @@ hr {
   border-bottom: 0.025em solid white;
   border-top: 0.025em solid white;
 }
-.test-comparisons {
- padding: 1em;
- background-color: #00A4DB;
-}
+
 
     /* Ideal Jobs */
 .ideal-jobs {
@@ -355,10 +371,11 @@ hr {
   border-bottom: 0.025em solid white;
 }
 .ideal-jobs-table {
+  width: 100%;
   padding-left: 25%;
 }
 .ideal-jobs-table table {
-  width: 60%;
+  width: 10%;
 }
 .ideal-jobs-header {
 
@@ -724,4 +741,14 @@ hr {
 .reflection-individual {
   width: 32%;
   border: outset 0.25em #002836;
+}
+
+/* Feedback and References */
+.references {
+ border-top: groove 0.125em lightgrey;
+}
+.ref {
+  text-align: left;
+  font-size: 1.25em;
+  padding-bottom: 1em;
 }
