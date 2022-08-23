@@ -679,10 +679,17 @@ hr {
 .timeline {
   margin-top: 3em;
 }
-.timeline-image img {
+.timeline-table {
   width: auto;
   height: auto;
   border: groove 1em lightblue;
+}
+.timeline-table-head {
+  background-color: #002836;
+  color: white;
+}
+.timeline-table-subhead {
+  background-color: #00A4DB;
 }
 
 /* Tools and Technoligies */
