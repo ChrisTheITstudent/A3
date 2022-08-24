@@ -755,6 +755,15 @@ hr {
   width: 32%;
   border: outset 0.25em #002836;
 }
+.image img {
+  width: auto;
+  height: 100%;
+  border: groove 1em lightgrey;
+}
+.image {
+  width: 100%;
+  margin-bottom: 3em;
+}
 
 /* Feedback and References */
 .references {
